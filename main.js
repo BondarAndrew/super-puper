@@ -28,4 +28,4 @@ function printNum(n1, n2) {
   }
 }
 
-printNum(prompt(), prompt());
+printNum(12, 2);
