@@ -1,31 +1,15 @@
-//ex1
-function sumNumbers() {
-  for (let i = 3; i <= 13; i++) {
-    console.log(i);
-  }
-}
-sumNumbers();
+let car = {
+  speed: 240,
+  color: "red",
 
-//ex2
+  drive: function () {
+    console.log("Driving");
+  },
 
-function numbers() {
-  for (let i = 0; i < 10; i++) {
-    console.log(10);
-  }
-}
+  transfer: function () {
+    console.log("tramsfering people");
+  },
+};
 
-numbers();
-
-//ex3
-
-function printNum(n1, n2) {
-  if (n1 > n2) {
-    console.log(n1);
-  } else if (n1 < n2) {
-    console.log(n2);
-  } else {
-    console.log("числа рівні");
-  }
-}
-
-printNum(12, 2);
+car.drive();
+car.transfer();
