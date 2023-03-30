@@ -13,3 +13,22 @@ let car = {
 
 car.drive();
 car.transfer();
+
+//-----------------------
+
+let stu = {
+  name: "Ivan",
+  age: 15,
+  grades: [12, 24, 53],
+
+  listen: function () {
+    console.log("Listening");
+  },
+
+  write: function () {
+    console.log("Writing");
+  },
+};
+
+stu.listen();
+stu.write();
